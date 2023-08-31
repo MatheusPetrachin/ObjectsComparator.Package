@@ -14,6 +14,7 @@ namespace ObjectsComparator
                 new DateTime(1998, 06, 15),
                 25,
                 125M,
+                new List<int>() { 1,2,3},
                 new Adress()
                 {
                     StreetName = "Calendulas",
@@ -40,6 +41,7 @@ namespace ObjectsComparator
                 new DateTime(1998, 06, 15),
                 25,
                 125M,
+                new List<int>() { 1, 2, 3 },
                 new Adress()
                 {
                     StreetName = "Calendulas",
@@ -68,6 +70,7 @@ namespace ObjectsComparator
                 new DateTime(1998, 06, 15),
                 25,
                 125M,
+                new List<int>() { 1, 2, 3 },
                 new Adress()
                 {
                     StreetName = "Calendulas",

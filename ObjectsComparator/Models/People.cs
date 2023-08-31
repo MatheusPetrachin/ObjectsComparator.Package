@@ -5,13 +5,14 @@ namespace ObjectsComparator.Models
 {
     public class People
     {
-        public People(string name, string lastName, DateTime birthDate, int age, decimal weight, Adress adress, List<Contact> contacts)
+        public People(string name, string lastName, DateTime birthDate, int age, decimal weight, List<int> numbers, Adress adress, List<Contact> contacts)
         {
             Name = name;
             LastName = lastName;
             BirthDate = birthDate;
             Age = age;
             Weight = weight;
+            Numbers = numbers;
             Adress = adress;
             Contacts = contacts;
         }
@@ -21,6 +22,7 @@ namespace ObjectsComparator.Models
         public DateTime BirthDate { get; set; }
         public int Age { get; set; }
         public decimal Weight { get; set; }
+        public List<int> Numbers { get; set; }
         public Adress Adress { get; set; }
         public List<Contact> Contacts { get; set; }        
     }

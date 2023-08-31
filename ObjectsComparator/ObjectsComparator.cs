@@ -12,28 +12,33 @@ namespace ObjectsComparator
         {
             var props = entity1.GetType().GetProperties().ToList();
 
-            foreach (var prop in props)
+            if (props.Any())
             {
-                if (!IsSystemType(prop.PropertyType))
+                foreach (var prop in props)
                 {
-                    if (!ObjectsAreEquals(prop.GetValue(entity1), prop.GetValue(entity2))) return false;
-                }
-                else if ((prop.PropertyType.IsGenericType && prop.PropertyType.GetGenericTypeDefinition() == typeof(List<>)) ||
-                        prop.PropertyType.IsArray)
-                {
-                    object[] list1 = ConvertToList(entity1, entity1.GetType().GetProperty(prop.Name));
-                    object[] list2 = ConvertToList(entity2, entity2.GetType().GetProperty(prop.Name));
+                    if (!IsSystemType(prop.PropertyType))
+                    {
+                        if (!ObjectsAreEquals(prop.GetValue(entity1), prop.GetValue(entity2))) return false;
+                    }
+                    else if ((prop.PropertyType.IsGenericType && prop.PropertyType.GetGenericTypeDefinition() == typeof(List<>)) ||
+                            prop.PropertyType.IsArray)
+                    {
+                        object[] list1 = ConvertToList(entity1, entity1.GetType().GetProperty(prop.Name));
+                        object[] list2 = ConvertToList(entity2, entity2.GetType().GetProperty(prop.Name));
 
-                    if (list1.Length != list2.Length) return false;
+                        if (list1.Length != list2.Length) return false;
 
-                    for (int i = 0; i < list1.Length; i++)
-                        if (!ObjectsAreEquals(list1[i], list2[i])) return false;
-                }
-                else if (!prop.GetValue(entity1).Equals(prop.GetValue(entity2)))
-                {
-                    return false;
+                        for (int i = 0; i < list1.Length; i++)
+                            if (!ObjectsAreEquals(list1[i], list2[i])) return false;
+                    }
+                    else if (!prop.GetValue(entity1).Equals(prop.GetValue(entity2)))
+                    {
+                        return false;
+                    }
                 }
             }
+            else if (!entity1.Equals(entity2))
+                return false;
 
             return true;
         }
