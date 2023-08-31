@@ -24,6 +24,8 @@ namespace ObjectsComparator
                     object[] list1 = ConvertToList(entity1, entity1.GetType().GetProperty(prop.Name));
                     object[] list2 = ConvertToList(entity2, entity2.GetType().GetProperty(prop.Name));
 
+                    if (list1.Length != list2.Length) return false;
+
                     for (int i = 0; i < list1.Length; i++)
                         if (!ObjectsAreEquals(list1[i], list2[i])) return false;
                 }
