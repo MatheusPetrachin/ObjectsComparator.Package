@@ -10,6 +10,7 @@
     <PackageDescription>Objects Comparator</PackageDescription>
     <RepositoryUrl>https://github.com/MatheusPetrachin/ObjectsComparator</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>

@@ -1,0 +1,13 @@
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\obj\Debug\netcoreapp3.1\ObjectsComparator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\obj\Debug\netcoreapp3.1\ObjectsComparator.AssemblyInfoInputs.cache
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\obj\Debug\netcoreapp3.1\ObjectsComparator.AssemblyInfo.cs
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\obj\Debug\netcoreapp3.1\ObjectsComparator.csproj.CoreCompileInputs.cache
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.exe
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.deps.json
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.runtimeconfig.json
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.runtimeconfig.dev.json
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.dll
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.pdb
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\obj\Debug\netcoreapp3.1\ObjectsComparator.dll
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\obj\Debug\netcoreapp3.1\ObjectsComparator.pdb
+C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\obj\Debug\netcoreapp3.1\ObjectsComparator.genruntimeconfig.cache
