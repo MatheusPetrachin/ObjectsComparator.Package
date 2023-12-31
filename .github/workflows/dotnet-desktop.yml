@@ -23,4 +23,4 @@ jobs:
     - name: Push no NuGet
       run: |
         cd out
-        dotnet nuget push *.nupkg --api-key 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 --source "https://nuget.pkg.github.com/MatheusPetrachin/index.json" --skip-duplicate
+        dotnet nuget push *.nupkg --api-key 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 --source "https://nuget.pkg.github.com/MatheusPetrachin/index.json" --skip-duplicate
