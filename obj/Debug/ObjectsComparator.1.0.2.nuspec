@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ObjectsComparator</id>
+    <version>1.0.2</version>
+    <authors>MatheusPetrachin</authors>
+    <description>Objects Comparator</description>
+    <repository url="https://github.com/MatheusPetrachin/ObjectsComparator" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.runtimeconfig.json" target="lib\netcoreapp3.1\ObjectsComparator.runtimeconfig.json" />
+    <file src="C:\Users\MatheusRoquePetrachi\Documents\PERSONAL\MY_Projects\ObjectsComparator\bin\Debug\netcoreapp3.1\ObjectsComparator.dll" target="lib\netcoreapp3.1\ObjectsComparator.dll" />
+  </files>
+</package>
