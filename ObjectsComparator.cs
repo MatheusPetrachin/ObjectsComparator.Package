@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace ObjectsComparator
 {
-    internal static class ObjectsComparator
+    public static class ObjectsComparator
     {
         public static bool ObjectsAreEquals<T>(T entity1, T entity2) where T : class
         {
